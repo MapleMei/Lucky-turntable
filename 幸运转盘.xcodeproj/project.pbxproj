@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		863E94FC1C44914C00A05606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 863E94FB1C44914C00A05606 /* main.m */; };
+		863E94FF1C44914C00A05606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 863E94FE1C44914C00A05606 /* AppDelegate.m */; };
+		863E95021C44914C00A05606 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863E95011C44914C00A05606 /* ViewController.m */; };
+		863E95051C44914C00A05606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863E95031C44914C00A05606 /* Main.storyboard */; };
+		863E95071C44914C00A05606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863E95061C44914C00A05606 /* Assets.xcassets */; };
+		863E950A1C44914C00A05606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863E95081C44914C00A05606 /* LaunchScreen.storyboard */; };
+		863E95161C4495BF00A05606 /* HMLuckyRotateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 863E95151C4495BF00A05606 /* HMLuckyRotateView.xib */; settings = {ASSET_TAGS = (); }; };
+		863E95191C4496AE00A05606 /* HMLuckyRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 863E95181C4496AE00A05606 /* HMLuckyRotateView.m */; settings = {ASSET_TAGS = (); }; };
+		863E951C1C44A74A00A05606 /* HMLuckyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 863E951B1C44A74A00A05606 /* HMLuckyButton.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		863E94F71C44914C00A05606 /* 幸运转盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "幸运转盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863E94FB1C44914C00A05606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		863E94FD1C44914C00A05606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		863E94FE1C44914C00A05606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		863E95001C44914C00A05606 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		863E95011C44914C00A05606 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		863E95041C44914C00A05606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		863E95061C44914C00A05606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		863E95091C44914C00A05606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		863E950B1C44914C00A05606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863E95151C4495BF00A05606 /* HMLuckyRotateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMLuckyRotateView.xib; sourceTree = "<group>"; };
+		863E95171C4496AE00A05606 /* HMLuckyRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLuckyRotateView.h; sourceTree = "<group>"; };
+		863E95181C4496AE00A05606 /* HMLuckyRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLuckyRotateView.m; sourceTree = "<group>"; };
+		863E951A1C44A74A00A05606 /* HMLuckyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLuckyButton.h; sourceTree = "<group>"; };
+		863E951B1C44A74A00A05606 /* HMLuckyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLuckyButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		863E94F41C44914C00A05606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		863E94EE1C44914C00A05606 = {
+			isa = PBXGroup;
+			children = (
+				863E94F91C44914C00A05606 /* 幸运转盘 */,
+				863E94F81C44914C00A05606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		863E94F81C44914C00A05606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				863E94F71C44914C00A05606 /* 幸运转盘.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		863E94F91C44914C00A05606 /* 幸运转盘 */ = {
+			isa = PBXGroup;
+			children = (
+				863E95141C44957100A05606 /* Model */,
+				863E95131C44956900A05606 /* View */,
+				863E95121C44956200A05606 /* Controller */,
+				863E95111C44955D00A05606 /* Other */,
+				863E94FA1C44914C00A05606 /* Supporting Files */,
+			);
+			path = "幸运转盘";
+			sourceTree = "<group>";
+		};
+		863E94FA1C44914C00A05606 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				863E95061C44914C00A05606 /* Assets.xcassets */,
+				863E95081C44914C00A05606 /* LaunchScreen.storyboard */,
+				863E950B1C44914C00A05606 /* Info.plist */,
+				863E94FB1C44914C00A05606 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		863E95111C44955D00A05606 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				863E94FD1C44914C00A05606 /* AppDelegate.h */,
+				863E94FE1C44914C00A05606 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		863E95121C44956200A05606 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				863E95001C44914C00A05606 /* ViewController.h */,
+				863E95011C44914C00A05606 /* ViewController.m */,
+				863E95031C44914C00A05606 /* Main.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		863E95131C44956900A05606 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				863E95151C4495BF00A05606 /* HMLuckyRotateView.xib */,
+				863E95171C4496AE00A05606 /* HMLuckyRotateView.h */,
+				863E95181C4496AE00A05606 /* HMLuckyRotateView.m */,
+				863E951A1C44A74A00A05606 /* HMLuckyButton.h */,
+				863E951B1C44A74A00A05606 /* HMLuckyButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		863E95141C44957100A05606 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		863E94F61C44914C00A05606 /* 幸运转盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863E950E1C44914C00A05606 /* Build configuration list for PBXNativeTarget "幸运转盘" */;
+			buildPhases = (
+				863E94F31C44914C00A05606 /* Sources */,
+				863E94F41C44914C00A05606 /* Frameworks */,
+				863E94F51C44914C00A05606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "幸运转盘";
+			productName = "幸运转盘";
+			productReference = 863E94F71C44914C00A05606 /* 幸运转盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		863E94EF1C44914C00A05606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HM;
+				TargetAttributes = {
+					863E94F61C44914C00A05606 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 863E94F21C44914C00A05606 /* Build configuration list for PBXProject "幸运转盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 863E94EE1C44914C00A05606;
+			productRefGroup = 863E94F81C44914C00A05606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				863E94F61C44914C00A05606 /* 幸运转盘 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		863E94F51C44914C00A05606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863E950A1C44914C00A05606 /* LaunchScreen.storyboard in Resources */,
+				863E95161C4495BF00A05606 /* HMLuckyRotateView.xib in Resources */,
+				863E95071C44914C00A05606 /* Assets.xcassets in Resources */,
+				863E95051C44914C00A05606 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		863E94F31C44914C00A05606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863E95021C44914C00A05606 /* ViewController.m in Sources */,
+				863E95191C4496AE00A05606 /* HMLuckyRotateView.m in Sources */,
+				863E951C1C44A74A00A05606 /* HMLuckyButton.m in Sources */,
+				863E94FF1C44914C00A05606 /* AppDelegate.m in Sources */,
+				863E94FC1C44914C00A05606 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		863E95031C44914C00A05606 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863E95041C44914C00A05606 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		863E95081C44914C00A05606 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863E95091C44914C00A05606 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		863E950C1C44914C00A05606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		863E950D1C44914C00A05606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		863E950F1C44914C00A05606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "幸运转盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		863E95101C44914C00A05606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "幸运转盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		863E94F21C44914C00A05606 /* Build configuration list for PBXProject "幸运转盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863E950C1C44914C00A05606 /* Debug */,
+				863E950D1C44914C00A05606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863E950E1C44914C00A05606 /* Build configuration list for PBXNativeTarget "幸运转盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863E950F1C44914C00A05606 /* Debug */,
+				863E95101C44914C00A05606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 863E94EF1C44914C00A05606 /* Project object */;
+}
